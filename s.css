@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    color: white;
+    width: fit-content;
+}
+body{
+    background-color: rgba(8, 15, 23, 1);
+    font-family: 'Plus Jakarta Sans';
+    padding: 0px 48px;
+    width: 100%;
+}
+.main{
+    box-sizing: border-box;
+}
+.header{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(162, 210, 96, 0.06);
+    /* gap: 32px; */
+    border-radius: 16px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{
+    padding-top: 13px;
+    width: 167px;
+    height: 72px;
+    font-size: 42px;
+    font-weight: 700;
+}
+.pagel{
+    /* padding-left: 32px; */
+    display: flex;
+    width: 223px;
+    height: 24px;
+    justify-content: space-between;
+}
+.contact{
+    /* padding-right: 32px; */
+    font-size: 17px;
+}
+.heading_b{
+    font-size: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+.center_item{
+    padding-top: 96px;
+
+}
+.main_content{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(171.51deg, rgba(8, 15, 23, 0.7) 43.65%, rgba(163, 210, 96, 0.192) 141.61%);
+
+}
+.img1_div{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    width: 1100px;
+    height: 810px;
+    margin-top: -32px;
+}
+.head_c{
+    font-size: 64px;
+    line-height: 68px;
+    width: 100%;
+    padding-bottom: 96px;
+}
+.s_content{
+    display:flex;
+    justify-content: center;
+    gap:96px;
+    width: 100%;
+}
+.images2{
+    width: 1344px;
+    height: 810px;
+}
+.images2_div{
+    display:flex;
+    justify-content: center;
+}
+.c_item{
+    padding-top: 200px;  
+}
+.images3{
+    width: 772px;
+    height: 900px;
+    float:right;
+}
+.head_m{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.Gradcontent{
+    display: flex;
+}
+.gradcontentp1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nineimagesmain{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
