@@ -2,15 +2,19 @@
     margin: 0;
     color: white;
     width: fit-content;
+    box-sizing: border-box;
 }
 body{
     background-color: rgba(8, 15, 23, 1);
     font-family: 'Plus Jakarta Sans';
     padding: 0px 48px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .main{
     box-sizing: border-box;
+    width: 100%;
 }
 .header{
     margin-top: 24px;
@@ -24,8 +28,9 @@ body{
     background-color: rgba(162, 210, 96, 0.06);
     border-radius: 16px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
+    padding: 0px 30px;
 }
 .logo{
     padding-top: 13px;
@@ -58,9 +63,10 @@ body{
     background: linear-gradient(171.51deg, rgba(8, 15, 23, 0.7) 43.65%, rgba(163, 210, 96, 0.192) 141.61%);
 
 }
-.img1_div{
+.img1_div,.image2_div{
     display: flex;
     justify-content: center;
+    width:100%;
 }
 .img1{
     width: 1100px;
@@ -100,9 +106,13 @@ body{
     font-weight: 700;
     line-height: 68px;
 }
-
+.GradCont{
+    width: 100%;
+}
 .Gradcontent{
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .gradcontentp1{
     display: flex;
@@ -117,11 +127,15 @@ body{
     justify-content: space-around;
     padding-top: 48px;
     padding-bottom: 48px;
+    width: 100%;
+}
+.testimonials-section{
+    width: 100%;
 }
 .page5{
     display: flex;
     justify-content: space-between;
-    width: 92vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 48px;
@@ -138,9 +152,7 @@ body{
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
 }
-
 
 
 .testimonials{
@@ -169,45 +181,56 @@ body{
   }
 
 #t1{
-    height: 200px;
+    height: 168px;
+
+}
+#t2{
+    height: 192px;
+}
+#t3{
+    height: 168px;
+}
+#t4{
+    height: 192px;
 }
 
-
-
-  .testimonial img{
+.testimonial img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
-  }
+}
 
-  .testimonial h3 {
+.testimonial h3 {
     font-size: 1rem;
     margin: 0;
-  }
+}
 
-  .testimonial p.role {
+.testimonial p.role {
     font-size: 0.85rem;
     color: #b0b8c3;
     margin: 0;
-  }
+}
 
-  .testimonial p.quote {
+.testimonial p.quote {
     font-size: 0.95rem;
     color: #fff;
     margin: 10px 0 0;
   }
-  .text1{
-    width: 1260px;
+.text1{
+    width: 100%;
     height: 52px;
     max-width: 1260px;
     gap: 0px;
+    text-align: center;
+    font-size: 48px;
+    padding: 20px 0;
 
   }
 
 
 
-  .landing-page {
+.landing-page {
     width: 1344px;
     height: 720px;
     display: flex;
@@ -217,28 +240,27 @@ body{
     gap: 48px;
     position: relative;
     background-color: #080F17;
-  }
+}
 
-  .divider {
+.divider {
     width: 1537px;
     height: 0px;
     border: 1.5px solid #FFFFFF33;
     position: absolute;
     top: 720px;
     left: -96px;
-    opacity: 0;
-  }
+}
 
-  .content {
+.content {
     width: 1344px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 48px;
-  }
+}
 
-  .heading {
+.heading {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 64px;
     font-weight: 700;
@@ -246,19 +268,16 @@ body{
     letter-spacing: -0.02em;
     text-align: center;
     margin: 0;
-  }
-
-  .subheading {
+}
+.subheading {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 32px;
-    letter-spacing: -0.005em;
     text-align: center;
-    margin: 0;
-  }
+}
 
-  .button {
+.button {
     background: #A7EE43;
     color: #000;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -270,10 +289,54 @@ body{
     cursor: pointer;
     text-transform: uppercase;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  .button:hover {
-    background: #98D93C;
+.button:hover {
+  background: #98D93C;
+}
+
+.column1{
+    padding: 15px;
+}
+.column2{
+    padding: 15px;
+}
+
+.column3{
+    padding: 15px;
+    padding-right: 0;
+    
   }
+.landing-page{
+    background:radial-gradient(63.68% 40.76% at 50% 103.08%, rgba(163, 210, 96, 0.06) 0%, rgba(214, 215, 216, 0) 100%);
+
+  }
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.pagelink{
+    width: 300px;
+    height: 32px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(214, 221, 230, 0.62);
+
+}
+.pagele{
+    width:162px;
+    height:48px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(214, 221, 230, 0.2);
+    border-radius: 8px;
+}
 
 
